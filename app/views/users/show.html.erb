@@ -1,0 +1,7 @@
+<div class="shadow-2xl rounded-lg mt-2 px-2 py-2 text-center">
+  <p>Name : <%= current_user.username %></p>
+  <p>Email : <%= current_user.email %></p>
+  <%= button_to "Edit Profile", edit_user_registration_path,
+                method: :get,
+                class: "bg-red-600 hover:bg-blue-700 text-white px-3 py-1 rounded-md text-sm" %>
+</div>

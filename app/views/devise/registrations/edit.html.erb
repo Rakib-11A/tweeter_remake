@@ -17,6 +17,11 @@
       <%= f.label :email, class: "block text-sm font-medium text-gray-700" %>
       <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm" %>
     </div>
+    <!-- Username -->
+    <div class="mb-4">
+      <%= f.label :username, class: "block text-sm font-medium text-gray-700" %>
+      <%= f.text_field :username, autofocus: true, autocomplete: "email", class: "mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm" %>
+    </div>
 
     <div class="mb-4">
       <%= f.label :password, class: "block text-sm font-medium text-gray-700" %>
